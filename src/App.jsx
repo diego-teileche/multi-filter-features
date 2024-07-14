@@ -1,10 +1,12 @@
+import MultiFilter from "./MultiFilter"
+
 import "./App.css"
 
 function App() {
 	return (
-		<>
-			<h1>Diego!</h1>
-		</>
+		<div className="App">
+			<MultiFilter />
+		</div>
 	)
 }
 
